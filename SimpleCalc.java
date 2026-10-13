@@ -8,7 +8,7 @@ public class SimpleCalc {
         if (strNum1 == null || strNum1.trim().isEmpty()) return;
 
         strNum2 = JOptionPane.showInputDialog(null, "Enter the second number", "Second Number Input", JOptionPane.INFORMATION_MESSAGE);
-        if (strNum1 == null || strNum1.trim().isEmpty()) return;
+        if (strNum2 == null || strNum2.trim().isEmpty()) return;
 
         double num1 = Double.parseDouble(strNum1);
         double num2 = Double.parseDouble(strNum2);
